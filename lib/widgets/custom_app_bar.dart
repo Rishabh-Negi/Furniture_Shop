@@ -7,8 +7,8 @@ import 'package:google_fonts/google_fonts.dart';
 import '../size_config.dart';
 
 class TitleBar extends StatelessWidget {
-  final double heightMul = SizeConfig.heightMul;
-  final double textMul = SizeConfig.textMul;
+  final double _heightMul = SizeConfig.heightMul;
+  final double _textMul = SizeConfig.textMul;
 
   @override
   Widget build(BuildContext context) {
@@ -18,19 +18,19 @@ class TitleBar extends StatelessWidget {
         title: Text(
           'Découvrir',
           style: GoogleFonts.actor(
-            fontSize: 4 * textMul,
-            letterSpacing: 0.15 * textMul,
+            fontSize: 4 * _textMul,
+            letterSpacing: 0.15 * _textMul,
             fontWeight: FontWeight.bold,
           ),
         ),
         subtitle: Padding(
-            padding: EdgeInsets.only(left: 2 * heightMul),
+            padding: EdgeInsets.only(left: 2 * _heightMul),
             child: Text('La Galerie')),
         trailing: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
             SvgPicture.asset('assets/search.svg', color: iconColor),
-            SizedBox(width: 2 * heightMul),
+            SizedBox(width: 2 * _heightMul),
             SvgPicture.asset('assets/cart.svg'),
           ],
         ),
