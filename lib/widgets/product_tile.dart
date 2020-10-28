@@ -23,16 +23,19 @@ class ProductTile extends StatelessWidget {
       },
       child: Container(
         width: 50 * SizeConfig.widthMul,
-        height: 32.9 * SizeConfig.heightMul,
+        // height: 32.9 * SizeConfig.heightMul,
         color: cardBgColor,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            Hero(
-              tag: '${product.image}',
-              child: FadeInImage(
-                placeholder: AssetImage('assets/chair.png'),
-                image: NetworkImage(product.image),
+            AspectRatio(
+              aspectRatio: 0.9,
+              child: Hero(
+                tag: '${product.image}',
+                child: FadeInImage(
+                  placeholder: AssetImage('assets/chair.png'),
+                  image: NetworkImage(product.image),
+                ),
               ),
             ),
             Column(
@@ -50,6 +53,7 @@ class ProductTile extends StatelessWidget {
                   style: Theme.of(context).textTheme.subtitle2.copyWith(
                       color: subTitleColor, fontSize: 2 * SizeConfig.textMul),
                 ),
+                SizedBox(height: 10),
               ],
             )
           ],
