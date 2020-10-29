@@ -1,4 +1,4 @@
-#Furniture-Shop App
+# Furniture-Shop App
 >Frontend for Shopping App
 ---
 
