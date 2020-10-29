@@ -1,16 +1,41 @@
-# furniture
+#Furniture-Shop App
+>Frontend for Shopping App
+---
 
-A new Flutter project.
+## Screenshots
+<table>
+<tr>
+    <td>
 
-## Getting Started
+![HomeScreen](https://github.com/Rishabh-Negi/Furniture_Shop/blob/master/gallery/homeScreen.PNG?raw=true)
+    </td>
+    <td>
 
-This project is a starting point for a Flutter application.
+![ItemScreen](https://github.com/Rishabh-Negi/Furniture_Shop/blob/master/gallery/itemScreen.PNG?raw=true)
+    </td>
+</tr>
+</table>
 
-A few resources to get you started if this is your first Flutter project:
+---
+### Star and Fork this Repository
+>###### You can star and fork this repository on GitHub by navigating at the top of this repository.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+GitHub repository URLs will reference both the username associated with the owner of the repository, as well as the repository name. 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> https://github.com/Rishabh-Negi/Furniture_Shop
+
+When you’re on the main page of a repository, you’ll see a button to "Star" and “Fork” the repository on the upper right-hand side of the page, underneath your user icon.
+
+---
+## Feel free to open an issue
+- Want a feature 
+- have some errors or bugs
+- Have any idea to contribute and make this all better
+
+---
+>**All feedbacks and suggestions are welcome!! Everyone can contribute toward this project ~> fork and open a PR.**
+
+---
+_Developed by  **[Rishabh-Negi](https://github.com/Rishabh-Negi)**._
+
+
