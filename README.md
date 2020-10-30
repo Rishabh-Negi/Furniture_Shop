@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-Furniture-Shop App
-=======
 # Furniture-Shop App
->>>>>>> 1b6e9fa8218cbd797b815bb94539fb1893b6a256
 >Frontend for Shopping App
 ---
 
