@@ -7,10 +7,11 @@ Future<List<Category>> fetchCategory() async {
   const String url =
       "https://5f210aa9daa42f001666535e.mockapi.io/api/categories";
 
+  List<Category> products = [];
   var response = await http.get('$url');
   print('${response.statusCode}');
   if (response.statusCode == 200) {
-    List<Category> products = (jsonDecode(response.body) as List)
+    products = (jsonDecode(response.body) as List)
         .map((data) => Category.fromJson(data))
         .toList();
 
@@ -18,4 +19,5 @@ Future<List<Category>> fetchCategory() async {
   } else {
     debugPrint('ERROR - HTTP STATUS CODE ${response.statusCode}');
   }
+  return products;
 }
